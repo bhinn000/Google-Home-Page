@@ -1,0 +1,256 @@
+/*.forg{
+	color:blue;
+	font-size:100px;
+	/*font-style: italic;*/}
+/*
+.for_o{
+	color:red;font-size:100px;
+}
+.for_oo{
+	color:yellow;font-size:100px;
+}
+.for_gg{
+	color:blue;font-size:100px;
+}
+.for_l{
+	color:green;font-size:100px;
+}
+.for_e{
+	text-align:center;
+	color:red;font-size:100px;
+}
+.placee{
+	margin:auto;
+	text-align:center;
+	text-align:justify;
+	text-transform:uppercase;
+	font-style:italic;
+}
+
+*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+    font-family: 'arial',sans-serif;
+
+}
+
+section{
+	position:relative;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+}
+section header{
+	position:absolute;
+	top:0;
+	width:100%;
+	display:flex;
+	padding:10px;
+	justify-content:flex-end;
+
+}
+/*.place:hover{
+	text-decoration:underline;
+
+}
+.placee:hover{
+	text-decoration:underline;
+}
+.place{
+	text-decoration:none;
+
+}
+	.placee{
+	text-decoration:none;
+
+}*/
+.goog{
+	height:250px;
+	width:420px;
+}
+img{
+	height:30px;
+	width:30px;
+}
+section header ul{
+	display:flex;
+	justify-contain:center;
+	align-items:center;
+	
+	
+}
+section header ul li{
+	list-style:none;
+	margin-left:20px;
+
+}
+section header ul li a{
+	color:#111;
+	text-decoration:none;
+	font-size:19px;
+}
+
+section header ul li a:hover{
+	text-decoration:underline;
+}
+
+section header ul li button{
+	background:#0973b5;
+	border:none;
+	outline:none;
+	padding:8px 14px;
+	color:#fff;
+	font-size:14px;
+	font-weight:700;
+	border-radius:3px;
+	cursor:pointer;
+}
+/*p class="forg">G</p>
+<p class="for_o">O</p>
+<p class="for_oo">o</p>
+<p class="for_gg">g</p>
+<p class="for_l">l</p>
+<p class="for_e">e</p></hr>
+Search Google or type aURL
+Youtube Facebook Gmail Instagram Classes Dramacool Myflixer add shortcut*/
+/*.biger{
+	height:100px;
+	width:50px;
+
+}*/
+
+.line{
+	text-align:center;
+}
+section .main{
+	width: 500px;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+}
+section .main .searchBox{
+	position:relative;
+	width:100%;
+	/*margin-top:5px;*/
+
+}
+section .main .searchBox .search{
+	width:120%;
+	padding:13px;
+	padding-left:45px;
+	padding-right:60px;
+	border-radius:30px;
+	border:2px solid #ccc;
+	outline:none;
+	font-size:19px;
+}
+section .main .searchBox .icons{
+	position:absolute;
+	top:0;
+	width:135%;
+	display:flex;
+	padding:12px 20px;
+	justify-content:space-between;
+	align-items:center;
+	pointer-events:none;
+
+}/*insteadofprevi0usicons
+section .main .searchBox  .icons{
+	position: absolute;
+	top:0;
+	width:100%;
+	display:flex;
+	padding:12px 20px;
+	justify-content:space-between;
+	align-items:center;
+	pointer-events:none;
+
+}*/
+section .main .buttons {
+margin-top:30px;
+}
+section .main .buttons button{
+	margin: 3px 5px;
+	padding:14px  30px;
+	color:black;
+	/*font-size:none;*/
+	cursor:pointer;
+	border-radius:6px;
+	/*border:1px solid transcript;*/
+	border-style:none;
+	outline:none;
+}
+section .main .buttons button:hover{
+	border:1px solid #ccc;
+}
+section .main .languages{
+	display:flex;
+	margin-top:30px;
+	margin-bottom:90px;
+
+}
+section .main .languages li
+{
+	list-style:none;
+	margin:0 10px ;
+	font-family:sans-serif;
+	font-size:18px;
+}
+section .main .languages li a{
+	text-decoration:none;
+	color:#1a0dab;
+}
+section .main .languages li a:hover{
+	text-decoration:underline;
+	color:red;
+}
+section .footer{
+	position:absolute;
+	bottom:0;
+	left:0;
+	
+	width:100%;
+	background:#f2f2f2;
+}
+section .footer .row1{
+	color:#4f5359;
+}
+sector .footer .row{
+	padding:15px 25px;
+	border-top:1px solid rgba(0,0,0,0,05);
+
+}
+/*section .footer.row.row2{
+	display:flex;
+	justify-content:space-between;
+}*/
+section .footer .row2 ul {
+    display:flex;
+    border-bottom: 1px solid #dadce0;
+}
+section .footer .row ul li{
+	list-style:none;
+	   /*border-bottom: 1px solid red;*/
+}
+section .footer .row .row2 ul li a{
+	text-decoration:none;
+	font-size:20px;
+	color:#5f6368;
+    margin-right:25px;
+
+}
+section .footer .row .row2 ul:nth-child(2) li a{
+	text-decoration:none;
+	font-size:20px;
+	color:#5f6368;
+   
+    margin-left:25px;
+}
+section .footer .row .row2 ul li a:hover{
+	text-decoration:underline;
+}
